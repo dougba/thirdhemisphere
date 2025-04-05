@@ -1,0 +1,22 @@
+.elementor-8560 .elementor-element.elementor-element-3dd81d2a{--display:flex;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-8560 .elementor-element.elementor-element-2913eb79:not(.elementor-motion-effects-element-type-background), .elementor-8560 .elementor-element.elementor-element-2913eb79 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#004D52;}.elementor-8560 .elementor-element.elementor-element-2913eb79{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:50px 50px 50px 50px;}.elementor-8560 .elementor-element.elementor-element-2913eb79 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8560 .elementor-element.elementor-element-6592447b > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-8560 .elementor-element.elementor-element-722c7ec4 .elementor-heading-title{font-family:"Gilroy", Sans-serif;font-size:30px;font-weight:700;line-height:24px;color:#19F285;}.elementor-8560 .elementor-element.elementor-element-7e758dcc{width:var( --container-widget-width, 100.03% );max-width:100.03%;--container-widget-width:100.03%;--container-widget-flex-grow:0;}.elementor-8560 .elementor-element.elementor-element-7e758dcc > .elementor-widget-container{margin:20px 0px 0px 0px;}.elementor-8560 .elementor-element.elementor-element-7e758dcc .elementor-heading-title{font-family:"Gilroy", Sans-serif;font-size:60px;font-weight:500;line-height:60px;color:#19F285;}@media(max-width:1024px){.elementor-8560 .elementor-element.elementor-element-7e758dcc .elementor-heading-title{font-size:40px;line-height:50px;}}@media(max-width:767px){.elementor-8560 .elementor-element.elementor-element-2913eb79{padding:30px 10px 30px 10px;}.elementor-8560 .elementor-element.elementor-element-722c7ec4{text-align:center;}.elementor-8560 .elementor-element.elementor-element-722c7ec4 .elementor-heading-title{font-size:16px;line-height:20px;}.elementor-8560 .elementor-element.elementor-element-7e758dcc{width:100%;max-width:100%;}.elementor-8560 .elementor-element.elementor-element-7e758dcc > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-8560 .elementor-element.elementor-element-7e758dcc .elementor-heading-title{font-size:28px;line-height:28px;}}@media(min-width:768px){.elementor-8560 .elementor-element.elementor-element-289cd8da{width:52.403%;}.elementor-8560 .elementor-element.elementor-element-583ac8f7{width:47.558%;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('/wp-content/uploads/2024/01/Gilroy-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('/wp-content/uploads/2024/01/Gilroy-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('/wp-content/uploads/2024/01/Gilroy-Bold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
