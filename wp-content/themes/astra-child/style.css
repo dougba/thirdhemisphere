@@ -1,0 +1,81 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff; /* Adjust the background color as needed */
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	z-index: 9999;
+	background-color: #00796F;
+	overflow: hidden; /* Ensure the loading bar doesn't overflow */
+	transition: opacity 0.7s ease, transform 0.7s ease; /* Add transitions for opacity and transform */
+}
+
+.preloader.hidden {
+	opacity: 0; /* Set opacity to 0 when hidden */
+	transform: translateY(100%); /* Move the preloader off-screen when hidden */
+}
+
+
+.loading-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0; /* Initial width is 0 */
+	height: 4px; /* Adjust the height of the loading bar */
+	background-color: #fff; /* Adjust the color of the loading bar */
+	z-index: 10000; /* Make sure the loading bar is above the preloader */
+	transition: width 0.5s ease; /* Add a smooth transition effect */
+}
+
+.preloader img {
+	width: 100%; /* Adjust the width of your preloader image */
+}
+.r_tabs .ue-remote-tabs .ue-item .ue-item-title{
+	transition : 0.3s ;
+}
+.r_tabs .ue-remote-tabs .ue-item-active .ue-item-title{
+	position : relative ;
+	transform : translatex(60px);
+	transition : 0.3s ;
+}
+.r_tabs .ue-remote-tabs .ue-item-active .ue-item-title::before {
+	content: "";
+	position: absolute;
+	background: url(/wp-content/uploads/2023/11/Ellipse-1-1.svg);
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	top: 10px;
+	background-repeat: no-repeat;
+	margin: auto;
+	left: -60px;
+	transition: 0.3s;
+}
+#uc_fullscreen_navigation_menu_elementor_62f7d18 .collapsed i::before, #uc_fullscreen_navigation_menu_elementor_62f7d18 .expanded i::before{
+	font-size: 35px !important;
+}
+
+.leadinModal-content{
+	display : none !important ;
+}
+.swiper-pagination-bullets {
+    z-index: -1;
+}
